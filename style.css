@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900@display=swap');
+*
+	{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		font-family: 'Poppins', sans-serif;
+	}
+	
+	body {
+		background-color: #B2C1D1;
+		display:flex;
+		justify-content: center;
+		align-items: center;
+		min-height: 100vh;
+    }
+
+    .container {
+		position: relative;
+		width: 100%;
+		max-width: 1000px;
+		max-height: 1000px;
+		background: white;
+		margin: 50px;
+		display: grid;
+		grid-template-columns: 1fr 2fr;
+		box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+    }
+	
+	.container .left_Side{
+		position: relative;
+		background: #003366;
+		padding: 40px;		
+	}
+	
+	.contactInfo{
+		padding-top: 40px;
+		left: 50%;
+		
+	}
+	.Title{
+		color: white;
+		text-transform: uppercase;
+		font-weight: 600;
+		letter-spacing: 1px;
+		margin-bottom: 20px;
+	}
+	.contactInfo ul{
+		position: relative;
+	}
+	.contactInfo ul li{
+		position: relative;
+		list-style: none;
+		margin: 10px 0;
+		cursor: pointer;
+	}
+	.contactInfo ul li .icon{
+		display: inline:block;
+		width: 30px;
+		font-size: 18px;
+		color: lightgreen;
+	}
+	.contactInfo ul li span{
+		color:#fff;
+		font-weight: 300;
+	}
+	.Links{
+		padding-top: 40px;
+		left: 50%;
+	}
+	.Links ul{
+		position: relative;
+	}
+	.Links ul li{
+		position: relative;
+		list-style: none;
+		margin: 10px 0;
+		cursor: pointer;
+	}
+	.Links ul li .icon{
+		display: inline:block;
+		width: 30px;
+		font-size: 18px;
+		color: white;
+	}
+	.Links ul li span{
+		color:#fff;
+		font-weight: 300;
+	}
+	.contactInfo.education li{
+		margin-bottom: 15px;
+	}
+	.contactInfo.education h5{
+		color: white;
+		font-weight: 500;
+	}
+	.contactInfo.education h4{
+		color: white;
+		font-weight: 500;
+	}
+	.contactInfo.education h4:nth-child(2){
+		color: white;
+		font-weight: 500;
+	}
+	
+/*
+FROM HERE ON IS THE RIGHT PORTION OF THE RESUME
+-----------------------------------------------
+*/
+
+.container .right_Side {
+	position: relative;
+	background: white;
+	padding: 40px;
+	height: 100%;
+}
+	.about{
+		margin-bottom: 10px;
+		padding:20px;
+	}
+	.about:last-child{
+		margin-bottom: 0;
+	}
+	.Title2{
+		color: #003366;
+		text-transform: uppercase;
+		Letter-spacing: 1px;
+		margin-bottom: 10px;
+	}
+	p{
+		color: black;
+	}
+
+	.about .box{
+		display: flex;
+		flex-direction: row;
+		margin: 20px 0;
+	}
+	
+	.about .box .year_company{
+		min-width: 200px;
+	}
+	.about .box .year_company h5{
+		text-transfrom:uppercase;
+		color: grey;
+		font-weight: 600;
+	}
+	.about .box .text h4{
+		text-transform: uppercase;
+		color: navy;
+		font-size: 16px;
+	}
+	.about .text ul li{
+		list-style:none;
+	}
+	
+
+	
